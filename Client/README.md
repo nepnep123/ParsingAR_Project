@@ -1,25 +1,22 @@
-# ParsingAR_Project
-## 1. 개요
-* KF-X AESA CBT(AR) S/W 개발
-## 2. 개발인원 및 포지션
-+ 개발인원 : 클라이언트 개발자 1명, 디자이너 1명, 3D 모델러 2명
-+ 포지션 : 클라이언트 개발 
-## 3. 개발환경
-+ Unity 2019.2.21f1
-+ Github
-## 4. 사용언어 
-+ C#, XML
-## 5. Assets 
-+ Maxst AR SDK
-+ MeshCombiner Asset
-## 6. 개발 플랫폼
-+ Android(갤럭시 탭 S7, S8)
-## 7. 구현 내용
-+ Maxst AR SDK를 활용한 AR 인식 기반 Android 프로젝트
-+ S1000D 교범 규격에 맞는 XML Data Parsing 및 데이터 관리
-+ 실제 장비를 촬영한 ImageTrackable 데이터 관리 로직 구현
-+ 3D 모델링 최적화 작업 및 상호작용 구현
-+ 2D Texture 최적화 작업 및 사용자 UI/UX 메뉴 트리 로직 구현
+# CLIENT CODE
+## ARSettingCanvas.cs
++ AR Tracker 인식 관리 및 Trarget Prefab Model 제어
+## ContentListSetting.cs
++ 파싱된 데이터 기반으로 컨텐츠 객체 동적 생성 관리
++ 데이터 페이지 관리 및 검색 추가 삭제 기능
++ 동적인 페이지 기능 구현 
+## DetailSettingCanvas.cs
++ 컨텐츠 영역 및 모델링 영역 관리 및 Canvas 관리 총괄 역할 
+## ItemListSetting.cs
++ 버튼 기능 부여 및 이벤트 등록 처리
++ UI Depth 할당 및 메뉴 트리 구성
+## ModelingTouchModule.cs
++ 3D 모델링 터치 동작 기능 구현 
+## XMLManager.cs
++ 로컬 XML 데이터 파싱 기능 구현
++ 파싱된 데이터 관리 
+## ObjectListSetting.cs
++ 3D 컨텐츠 영역 객체 생성 관리 및 제어 
 
 
 
