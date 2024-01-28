@@ -1,6 +1,7 @@
 # CLIENT CODE
 ## ARSettingCanvas.cs
-+ AR Tracker 인식 관리 및 Trarget Prefab Model 제어
++ AR Tracker 인식 처리
++ 인식된 Trarget Prefab Model 동적 생성 관리
 ## ContentListSetting.cs
 + 파싱된 데이터 기반으로 컨텐츠 객체 동적 생성 관리
 + 데이터 페이지 관리 및 검색 추가 삭제 기능
